@@ -2,6 +2,12 @@
 
 ## Author: Robbie Soriano
 
+
+## Libraries
+
+- TailwindCSS
+- Svelte
+
 ### Links
 - Deployed Site: [Site](https://melodious-flan-a1ec63.netlify.app)  
  
