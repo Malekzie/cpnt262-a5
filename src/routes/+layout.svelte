@@ -4,4 +4,13 @@
   </script>
  
  <NavBar />
- <slot />
+
+ <div class="margin">
+   <slot />
+ </div>
+
+ <style>
+    .margin {
+      margin-left: 20%;
+    }
+ </style>
