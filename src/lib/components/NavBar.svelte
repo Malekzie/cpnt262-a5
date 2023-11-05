@@ -24,10 +24,6 @@
   </ul>
 </nav>
 
-  <header>
-    <h1 class="text-white">Hey there</h1>
-  </header>
-
   <style>
     :root{
       --text-color: #898989;
