@@ -5,7 +5,7 @@
 <nav class="navbar">
   <h1><a href="/">Logo</a></h1>
   <ul> 
-    <a href="/"><li>Dashboard</li></a>
+    <a href="/DashBoard"><li>Dashboard</li></a>
     <a href="/messages"><li>Messages</li></a>
     <a href="/calendar"><li>Calendar</li></a>
   </ul>
