@@ -1,7 +1,7 @@
 <script>
     import "../app.css";
     import NavBar from "../lib/components/NavBar.svelte";
-  import SearchBar from "../lib/components/SearchBar.svelte";
+    import SearchBar from "../lib/components/SearchBar.svelte";
   </script>
  
  <NavBar />
