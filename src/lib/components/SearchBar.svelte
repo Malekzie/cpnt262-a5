@@ -1,13 +1,15 @@
+
 <script>
+  export let currentPage = "Current Page";
   export let search = "Search";
 </script>
 
 <div class="top-nav">
+  <div class="current-wrap">
+    <h1 class="m-6 text-2xl text-white">{currentPage}</h1>
+  </div>
   <div class="search-wrap">
     <input type="text" id="search-box" placeholder="{search}"><button class="search-button">Search</button>
-  </div>
-  <div class="buttons-wrap">
-    
   </div>
 </div>
 
@@ -23,16 +25,25 @@
     top: 0;
     z-index: 100;
     border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
   }
 
-  .search-wrap{
-    margin-left: 2rem;
+  .current-wrap{
+    display: inline;
   }
+
   #search-box {
     margin: 2rem;
-    width: 10%;
+    width: 10rem;
     border-radius: 5px;
-
+  }
+  #search-box {
+    background-image: url('../images/search-icon.svg');
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 20px 20px;
+    padding-inline: 30px; 
   }
 
   .search-button{
@@ -43,9 +54,7 @@
     color: white;
   }
   .search-button:hover{
-    background-color: #151515;
-    color: white;
-    transition: 200ms ease-in-out;
+    scale: 105%;
+    color: purple;
   }
-
   </style>
