@@ -2,6 +2,7 @@
     import CardTracker from "../../lib/components/CardTracker.svelte";
     import SearchBar from "../../lib/components/SearchBar.svelte";
     import Candidate from "../../lib/components/Candidate.svelte";
+    import { candidateInfo } from "../../lib/javascript/data";
 </script>
 
 <SearchBar currentPage="Dashboard" />
@@ -17,7 +18,9 @@
 <section>
     <h1 class="text-3xl title">Candidates</h1>
     <div class="flex flex-wrap gap-2 justify-evenly">
-        <Candidate {candidate1}/>
+    {#each candidateInfo as candidate}
+    <Candidate name={candidate.name} description={candidate.description} skills={candidate.skills} image={candidate.image} />
+    {/each}
     </div>
 </section>
 
