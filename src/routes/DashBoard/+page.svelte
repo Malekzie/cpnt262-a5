@@ -3,10 +3,11 @@
     import SearchBar from "../../lib/components/SearchBar.svelte";
     import Candidate from "../../lib/components/Candidate.svelte";
     import { candidateInfo } from "../../lib/javascript/data";
+    console.log(candidateInfo.length);
 </script>
 
 <SearchBar currentPage="Dashboard" />
-<section>
+<section >
     <h1 class="text-3xl title">Overview</h1>
     <div class="flex justify-evenly">
         <CardTracker position="Sr. Web Developer" recentPost="10" applicantCount="65" />
@@ -17,11 +18,10 @@
 
 <section>
     <h1 class="text-3xl title">Candidates</h1>
-    <div class="flex flex-wrap gap-2 justify-evenly">
-    {#each candidateInfo as candidate}
-    <Candidate name={candidate.name} description={candidate.description} skills={candidate.skills} image={candidate.image} />
+    <div class="flex flex-wrap justify-around gap-2 my-5">
+        {#each candidateInfo as candidate}
+        <Candidate {candidate} />
     {/each}
-    </div>
 </section>
 
 
