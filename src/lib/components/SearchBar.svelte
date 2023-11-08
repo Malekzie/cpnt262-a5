@@ -2,6 +2,7 @@
 <script>
   export let currentPage = "Current Page";
   export let search = "Search";
+  
 </script>
 
 <div class="top-nav">
@@ -20,7 +21,6 @@
     height: 80px;
     opacity: 98%;
     width: 100%;
-    margin-left: 20%;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -39,7 +39,7 @@
     border-radius: 5px;
   }
   #search-box {
-    background-image: url('../images/search-icon.svg');
+    background-image: url('/images/search-icon.svg');
     background-repeat: no-repeat;
     background-position: left 10px center;
     background-size: 20px 20px;
