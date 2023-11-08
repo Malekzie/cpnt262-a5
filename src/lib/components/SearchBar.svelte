@@ -7,7 +7,7 @@
 
 <div class="top-nav">
   <div class="current-wrap">
-    <h1 class="m-6 text-2xl text-white">{currentPage}</h1>
+    <h1 class="m-6 text-2xl text-white cursor-default">{currentPage}</h1>
   </div>
   <div class="search-wrap">
     <input type="text" id="search-box" placeholder="{search}"><button class="search-button">Search</button>
@@ -35,7 +35,7 @@
 
   #search-box {
     margin: 2rem;
-    width: 10rem;
+    width: 15rem;
     border-radius: 5px;
   }
   #search-box {

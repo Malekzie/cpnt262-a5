@@ -9,7 +9,7 @@
   $: recentApplicants = Math.floor(applicantCount / 7 + 5);
 </script>
   
-  <div class="p-2 rounded-md cursor-pointer gradient w-80">
+  <div class="p-2 transition rounded-md cursor-pointer gradient w-80 hover:scale-105 delay-300ms">
     <div class="ml-4">
       <h1 class="text-2xl text-white">{position}</h1>
       <p class="text-sm white">Posted {recentPost} days ago</p>
