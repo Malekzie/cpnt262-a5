@@ -9,7 +9,7 @@
 - Svelte
 
 ### Links
-- Deployed Site: [Site](https://melodious-flan-a1ec63.netlify.app)  
+- Deployed Site: [Site](https://components-and-props.netlify.app)  
  
 - GH Repo: [Repo](https://github.com/Malekzie/cpnt262-a5.git)
  
